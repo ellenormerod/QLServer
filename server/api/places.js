@@ -12,10 +12,7 @@ router.get('/', (req, res, next) => {
 //get one place and include its associated reviews (will need to change where key lives)
 router.get('/:id', (req, res, next) => {
   let id = req.params.id
-  Place.findById(id,
-  {
-    include: [Review]
-  })
+  Place.findById(id)
     .then(place => res.json(place))
     .catch(next)
 })
