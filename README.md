@@ -4,4 +4,4 @@ A react native app for users to find and review bars and restaurants based on th
 
 This app includes both this repo (the backend) and the QuietLocations repo (frontend) to work so make sure to check that one out.  
 
-This repo is specifically the backend. To run this app clone it to your local machine and cd into it, npm install and run npm start.
+To run this app clone it to your local machine and cd into it, npm install and run npm start.
