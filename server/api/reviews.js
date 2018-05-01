@@ -10,6 +10,7 @@ router.get('/:id', (req, res, next) => {
 })
 
 router.post('/', (req, res, next) => {
+  console.log('body', req.body)
   Review.create(req.body)
     .then(review => res.json(review))
     .catch(next)

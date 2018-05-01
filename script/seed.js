@@ -20,6 +20,12 @@ const {User, Place, Review} = require('../server/db/models')
     {email: 'adam@email.com', name: 'Adam Jones', password: '123'}, //4
   ]
 
+  // 1: 'too loud',
+  // 2: 'loud',
+  // 3: 'perfect',
+  // 4: 'quiet',
+  // 5: 'too quiet'
+
   //1 is so loud I can't hear the person next to me, 2 is it was louder than I would have liked and it was hard to hear
   //3 is it was louder than I wanted but very middle of the road and wasn't terrible but could've been better
   //4 is this was a good level for the atmosphere and/or I could hear the people around me for the most part/maybe it was a little loud bc of group or something
